@@ -18,11 +18,14 @@ export default class Sorter extends Component{
 
 
   render() {
-    // console.log(this.props)
     return (
       <div>
-        <input type="text" onChange={(event)=>{this.handleChange(event.target.value)}}/>
-        <button onClick={()=> {this.props.sortMember(this.state.userInput)} }>Sort </button>
+        <input type="text" 
+          onChange={(event)=>{this.handleChange(event.target.value)}}
+        />
+        <button 
+          onClick={()=> {this.props.sortMember(this.state.userInput)} }
+        >Sort </button>
       </div>
     )
   }

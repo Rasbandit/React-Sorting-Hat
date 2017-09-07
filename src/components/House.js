@@ -17,10 +17,10 @@ export default class House extends Component {
       <div className="house" 
       style={
         {
-          color: this.props.house.font, background: this.props.house.background, borderColor: this.props.house.border
+          color: this.props.home.font, background: this.props.home.background, borderColor: this.props.home.border
         }}
       >
-        <h1>{this.props.house.title}</h1>
+        <h1>{this.props.home.title}</h1>
         <ul>
           {members}
         </ul>

@@ -17,7 +17,7 @@ class App extends Component {
           border: '#d3a625'
         },
         {
-          title: 'Sylytherin',
+          title: 'Slytherin',
           background: '#2a623d',
           font: '#aaaaaa',
           border: '#000000'
@@ -86,19 +86,19 @@ class App extends Component {
         </div>
         <div className="houses">
           <House
-            house={this.state.houses[0]}
+            home={this.state.houses[0]}
             members={this.state.gMembers}
           />
           <House
-            house={this.state.houses[1]}
+            home={this.state.houses[1]}
             members={this.state.sMembers}
           />
           <House
-            house={this.state.houses[2]}
+            home={this.state.houses[2]}
             members={this.state.hMembers}
           />
           <House
-            house={this.state.houses[3]}
+            home={this.state.houses[3]}
             members={this.state.rMembers}
           />
         </div>
